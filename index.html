@@ -21,14 +21,18 @@
             background-color: #4D6E74;
             color: white;
         }
+        .btn-custom:hover {
+            color: white; /* Keeps text color white on hover */
+            background-color: #356B7A; /* Slightly darker shade for hover state */
+        }
     </style>
 </head>
 <body>
     <div class="container">
-    <img src="./logo.svg" alt="TwentyFathoms Logo" style="max-width: 33vw; margin-bottom: 20px;">
+        <img src="./logo.svg" alt="TwentyFathoms Logo" style="max-width: 33vw; margin-bottom: 20px;">
         <br/>
-    <button class="btn btn-custom btn-lg">Contact</button>
-</div>
+        <a href="mailto:twentyfathoms@protonmail.com" class="btn btn-custom btn-lg">Contact</a>
+    </div>
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -36,4 +40,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
